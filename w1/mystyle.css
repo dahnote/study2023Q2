@@ -1,0 +1,55 @@
+.body{
+    font-family:'Noto Sans TC';
+}
+.wrap{
+    /* width: 1296px; */
+    margin: 0 auto;
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content:space-between; */
+}
+.card{
+    width: 33%;
+    max-width: 416px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    /* margin: 0px 24px ; */
+}
+.card img{
+    height: 312px;
+    width: 100%;
+}
+.card-content{
+    border: 1px solid #F2F2F2;
+    padding: 20px;
+}
+ 
+.card-content .title{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.card-content .sub-title{
+    color: #525252;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.card-footer{
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    font-size: 16px;
+}
+.card-footer .model{
+    font-weight: 700;
+}
+.card-footer .share{
+    width: 18px;
+    height: 19.92px;
+}
